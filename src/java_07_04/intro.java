@@ -1,5 +1,5 @@
-package java0704;
-import Java0404.*;
+package java_07_04;
+
 public class intro {
     public static void main(String[] args) {
         // Comment ( code from here)
