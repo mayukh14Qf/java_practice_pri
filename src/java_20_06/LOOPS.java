@@ -9,7 +9,5 @@ public class LOOPS {
             System.out.println(i+ " : Sorry");
         }
 
-
-
     }
 }
