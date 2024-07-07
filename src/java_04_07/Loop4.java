@@ -18,7 +18,7 @@ public class Loop4 {
             }
         }
 
-        // Prime Number
+        // Prime Number or not
 
 
         System.out.println("Enter a Number");
