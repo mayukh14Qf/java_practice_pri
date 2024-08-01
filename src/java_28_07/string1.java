@@ -1,5 +1,7 @@
 package java_28_07;
 
+import java.util.Scanner;
+
 public class string1 {
     public static void main(String[] args) {
 
@@ -55,5 +57,58 @@ public class string1 {
         // printf
         int age =22;
         System.out.printf("my name is %s and my age is %d",var1,age);
+
+
+        Scanner sc= new Scanner(System.in);
+        System.out.println("1: Addition\n" +
+                "2: Subtraction \n" +
+                "3: Multiplication \n" +
+                "4:Division \n" +
+                " 5: Modulo");
+        int input=sc.nextInt();
+
+        System.out.println("Enter 1st Number : ");
+        int number1= sc.nextInt();
+
+        System.out.println("Enter 2nd Number : ");
+        int number2= sc.nextInt();
+
+
+        switch (input){
+            case 1:
+                System.out.println(number1+number2);
+                break;
+            case 2:
+                if (number1>number2){
+                    System.out.println(number1-number2);
+                }
+                else {
+                    System.out.println(number2-number1);
+                }
+                break;
+            case 3:
+                System.out.println(number1*number2);
+                break;
+            case 4:
+                if (number1>number2){
+                    System.out.println(number1/number2);
+                }
+                else {
+                    System.out.println(number2/number1);
+                }
+                break;
+            case 5:
+                if (number1>number2){
+                    System.out.println(number1%number2);
+                }
+                else {
+                    System.out.println(number2%number1);
+                }
+                break;
+            default:
+                System.out.println("Enter A Number in between 1 and 5");
+        }
+
+
     }
 }
