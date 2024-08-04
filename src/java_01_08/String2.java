@@ -44,6 +44,5 @@ public class String2 {
 
         System.out.println(var2.indexOf('a'));// forward
         System.out.println(var2.lastIndexOf('a')); // reverse
-
     }
 }
