@@ -30,7 +30,5 @@ public class ArrayRest {
             System.out.println();
 
         }
-
-
     }
 }
